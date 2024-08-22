@@ -59,23 +59,18 @@ img{
     margin-left: 12%;
 }
 a{
-    color: darkblue ;
+    color: blue ;
     font-weight: bold;
-    background-color:  rgba(185, 159, 159, 0.534);
-    border: solid rgba(185, 159, 159, 0.534);
-    border-radius: 20%;
+    
+    
 }
 p{
     font-weight: bolder;
     text-align: center;
-    background-color:  rgba(185, 159, 159, 0.534);
-    border: solid rgba(185, 159, 159, 0.534);
-    border-radius: 20%;
+    
 }
 h1{
-    background-color:  rgba(185, 159, 159, 0.534);
-    border: solid rgba(185, 159, 159, 0.534);
-    border-radius: 50%;
+    color: black;
 }
 .owner{
     padding-top: 30% ;
@@ -133,4 +128,10 @@ h1{
     background-size: cover;
     font-family: sans-serif;
     text-transform: capitalize; 
+}
+mark{
+    background-color: rgba(214, 108, 9, 0.658);
+}
+.mark{
+    color: blue;
 }
