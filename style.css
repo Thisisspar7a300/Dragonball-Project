@@ -71,6 +71,7 @@ p{
 }
 h1{
     color: black;
+    
 }
 .owner{
     padding-top: 30% ;
@@ -84,6 +85,10 @@ h1{
     .item-1{
         margin-top: 20%;
     }
+    .container2{
+        flex-basis: 100%;
+    }
+    
     
 }
 .goku-body{
@@ -94,6 +99,8 @@ h1{
     background-size: cover;
     font-family: sans-serif;
     text-transform: capitalize;
+    height: 100vh;
+    
 }
 .container2{
     display: flex;
@@ -101,7 +108,9 @@ h1{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 50px;
+    gap: 10px;
+    flex-basis: 100%;
+    
 }
 
 .p2{
@@ -110,6 +119,7 @@ h1{
     box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
     border: solid rgba(255, 255, 255, .2);
     border-radius: 10%;
+    margin-top:0; 
 }
 .vageta-body{
     background-image: url(./src/vageta-background.jpg);
@@ -128,6 +138,7 @@ h1{
     background-size: cover;
     font-family: sans-serif;
     text-transform: capitalize; 
+    position: relative;
 }
 mark{
     background-color: rgba(214, 108, 9, 0.658);
@@ -135,3 +146,4 @@ mark{
 .mark{
     color: blue;
 }
+
